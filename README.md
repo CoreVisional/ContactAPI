@@ -3,7 +3,7 @@
 This API allows for the creation and submission of a customer contact form using XAMPP, MySQL, HTML/CSS, Javascript, and PHP. The database structure alongside its migration is built using PHP Phinx with composer.
 
 # **Third-party Tools**
-PHP Phinx from (https://github.com/cakephp/phinx)
+PHP Phinx from Rob Morgan (https://github.com/cakephp/phinx)
 
 # **Setup**
 1. Ensure that XAMPP and Composer are installed on your system.
