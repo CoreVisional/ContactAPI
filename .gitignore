@@ -60,3 +60,6 @@ $RECYCLE.BIN/
 
 ## Ignore vendor folder
 /vendor
+
+## Ignore phinx configuration file
+phinx.php
