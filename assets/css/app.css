@@ -139,16 +139,28 @@ table {
     width: 100%;
     border-collapse: collapse;
     margin-top: 20px;
+    background-color: #444;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #555;
 }
 
 th, td {
     border: 1px solid #ddd;
     padding: 8px;
     text-align: center;
+    font-family: "Segoe UI", sans-serif;
 }
 
 th {
-    background-color: #f2f2f2;
+    color: white;
+}
+
+td {
+    color: black;
+}
+
+th {
+    background-color: #555;
     font-weight: bold;
 }
 
