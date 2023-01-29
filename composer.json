@@ -1,0 +1,12 @@
+{
+    "name": "alex/contact-form",
+        "authors": [
+        {
+            "name": "Alex Chiew",
+            "email": "alex.chiewyz@gmail.com"
+        }
+    ],
+    "require": {
+        "robmorgan/phinx": "^0.13.4"
+    }
+}
