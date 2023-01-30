@@ -21,16 +21,21 @@ PHP Phinx from Rob Morgan (https://github.com/cakephp/phinx)
 "composer update"
 ```
 
-7. Ensure that the configuration of "phinx.php" matches the configuration of your XAMPP database.
+7. After that, run the command below to initialize PHP Phinx to get the phinx.php configuration file
+```
+php vendor/bin/phinx init
+```
 
-8. In your terminal, run the command below to migrate database structure to "customercontact".
+8. Ensure that the configuration of "phinx.php" matches the configuration of your XAMPP database.
+
+9. In your terminal, run the command below to migrate database structure to "customercontact".
 ```
 php vendor/bin/phinx migrate
 ```
 
-9. In your terminal, run the command below to seed the 3 postcodes data to "customercontact".
+10. In your terminal, run the command below to seed the 3 postcodes data to "customercontact".
 ```
 php vendor/bin/phinx seed:run
 ```
 
-10. Avoid running this application with extension like "Live Server" as this may cause some issues fetching data from the API.
+11. Avoid running this application with extension like "Live Server" as this may cause some issues fetching data from the API.
